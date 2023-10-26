@@ -1,8 +1,14 @@
-# React + Vite
+# React Props Practice 1
+Practice using props in React by extracting components and passing data in those components using props.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](./image.png)
 
-Currently, two official plugins are available:
+## Set up
+* Fork and clone this repository
+* `npm ci` to install dependencies
+* `npm run dev` to start the React development server
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instructions
+Take the existing `App` component and:
+- Separate into Title, NameLength, and NameReversed components
+- Use props to pass `name` down to each component
