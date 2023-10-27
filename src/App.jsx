@@ -1,9 +1,7 @@
 import { useState } from 'react'
-
 import { reverse } from './helpers'
-import './styles.css'
 
-export default function App() {
+function App() {
   const [name, setName] = useState('Nicolas')
 
   return (
@@ -18,3 +16,5 @@ export default function App() {
     </div>
   )
 }
+
+export default App

@@ -5,10 +5,10 @@ Practice using props in React by extracting components and passing data in those
 
 ## Set up
 * Fork and clone this repository
-* `npm install` to install dependencies
-* `npm start` to start the React development server
+* `npm ci` to install dependencies
+* `npm run dev` to start the React development server
 
 ## Instructions
-Take the existing component and:
+Take the existing `App` component and:
 - Separate into Title, NameLength, and NameReversed components
 - Use props to pass `name` down to each component
